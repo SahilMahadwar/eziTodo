@@ -7,7 +7,7 @@ export interface PageLayoutProps {
   title?: string;
 }
 
-const PageLayout = ({ children, title = "eziTodo" }: PageLayoutProps) => {
+const PageLayout = ({ children, title = "eziTodos" }: PageLayoutProps) => {
   return (
     <>
       <Head>
